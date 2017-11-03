@@ -2,36 +2,94 @@
 <html lang="en" ng-app="myApp">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+    <title>Responsive_DG_Slider | a free jQuery slideshow by Dhiraj</title>
+    <meta name="description" content="Fluid_DG_Slider a free jQuery slideshow with many effects, transitions, adaptive layout, easy to customize, using canvas and mobile ready">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' id='fluid_dg-css'  href='responsive_slider/css/fluid_dg.css' type='text/css' media='all'>
+    <link rel="stylesheet" href="responsive_slider/css/clearance.css" type="text/css" media="all">
+    <link rel="stylesheet" href="responsive_slider/css/wthreeshop-a.css" type="text/css" media="all">
 
-    <title>AngularJS & Firebase Web App //test github</title>
+    <link rel="stylesheet" href="responsive_slider/css/h2_shopNew.css" type="text/css" media="all">
 
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
-
-    <link href="justified-nav.css" rel="stylesheet">
+    <style>
+        body {margin: 0; padding: 0; background:#111; color:#eee; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif}
+        a {color: #09f}
+        a:hover {text-decoration: none}
+        #back_to_fluid_dg {
+            clear: both;
+            display: block;
+            height: 80px;
+            line-height: 40px;
+            padding: 20px;
+        }
+        .fluid_container {
+            margin: 0 auto;
+            width: 100%;
+        }
+        .fluid_dg_wrap .fluid_dg_pag .fluid_dg_pag_ul, h1{text-align:center}
+    </style>
 
 </head>
 
+
 <body ng-controller="HomeCtrl">
+<div id="back_to_fluid_dg">
+    <a href="http://www.css-jquery-design.com/2013/03/18/responsive-jquery-banner-slider-with-pagination-circles-responsive_dg_slider/">&larr; Back to the Responsive_DG_Slider project</a>
+</div><!-- #back_to_fluid_dg -->
 
-<div class="container">
-    <div class="jumbotron" style="padding-bottom:0px;">
-        <h2>AngularJS & Firebase App!</h2>
+<div class="fluid_container">
+    <!--<h1 id="myTest">Pagination circles with the height relative to the width</h1>-->
+    <div class="fluid_dg_wrap fluid_dg_charcoal_skin" id="fluid_dg_wrap_1">
+
+        <div data-thumb="responsive_slider/slides/thumbs/peace_love_and_happiness.jpg" data-src="responsive_slider/slides/peace_love_and_happiness-wallpaper-1280x720.jpg">
+            <div class="fluid_dg_caption fadeFromBottom">
+                Fluid_DG_Slider is a responsive/adaptive slideshow. <em>Try to resize the browser window</em>
+            </div>
+        </div>
+        <div data-thumb="responsive_slider/slides/thumbs/box_people.jpg" data-src="responsive_slider/slides/box_people-wallpaper-1280x720.jpg">
+            <div class="fluid_dg_caption fadeFromBottom">
+                It uses a light version of jQuery mobile, <em>navigate the slides by swiping with your fingers</em>
+            </div>
+        </div>
+        <div data-thumb="responsive_slider/slides/thumbs/heart_book.jpg" data-src="responsive_slider/slides/heart_book-wallpaper-1280x720.jpg">
+            <div class="fluid_dg_caption fadeFromBottom">
+                <em>It's <strong>completely free</strong>, with tons of effects, Prev / next, pager, Start / Stop / Auto control controls and lot of customizable options.</em>
+            </div>
+        </div>
+        <div data-thumb="responsive_slider/slides/thumbs/carnations_bouquet_on_a_bench.jpg" data-src="responsive_slider/slides/carnations_bouquet_on_a_bench-wallpaper-1280x720.jpg">
+            <div class="fluid_dg_caption fadeFromBottom">
+                Fluid_DG_Slider slideshow provides many options <em>to customize your project</em> as more as possible
+            </div>
+        </div>
+        <div data-thumb="responsive_slider/slides/thumbs/paint_splash_heart.jpg" data-src="responsive_slider/slides/paint_splash_heart-wallpaper-1280x720.jpg">
+            <div class="fluid_dg_caption fadeFromBottom">
+                It supports captions, HTML elements and videos and <em>it's validated in HTML5</em> (<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fdemo.web3designs.com%2FResponsive_DG_Slider%2Fresponsive-slider-pagination-circle.htm" target="_blank">have a look</a>)
+            </div>
+        </div>
+        <div data-thumb="responsive_slider/slides/thumbs/silhouette.jpg" data-src="responsive_slider/slides/silhouette-wallpaper-1280x720.jpg">
+            <div class="fluid_dg_caption fadeFromBottom">
+                Different color skins and layouts available, <em><a href="http://demo.web3designs.com/Responsive_DG_Slider/fullscreen-responsive-image-slider.htm">fullscreen</a> ready too</em>
+            </div>
+        </div>
+    </div><!-- #fluid_dg -->
+</div><!-- .fluid_container -->
+
+<div style="clear:both; display:block; height:100px">my description</div>
+
+<!-- Clearance-Sale -->
+<div  class="aitsclearance-sales">
+    <div  class="aitsclearance-sales-text" style="height:50px" >
+        <h2 style="font-size: inherit" >ALL CLEARANCE ITEMS</h2>
+        <h4 style="font-size: inherit">BUY ONE AND GET ONE FREE</h4>
+        <h5 style="font-size: inherit">50% OFF <small>On selected products<sup>*</sup></small></h5>
+        <div class="wthreeshop-a">
+            <a href="mens.html">SHOP NOW</a>
+        </div>
     </div>
-    <form class="form-signin" role="form">
-
-        <input ng-model="user.email" class="form-control" placeholder="Email address" required="" autofocus="">
-
-        <input ng-model="user.password" type="password" class="form-control" placeholder="Password" required="">
-        <label class="checkbox">
-            <a href="#"> Sign Up</a>
-        </label>
-        <button type="button" ng-click="SignIn($event)" class="btn btn-lg btn-primary btn-block">SignIn</button>
-    </form>
-
 </div>
+<!-- //Clearance-Sale -->
+
 
 
 </body>

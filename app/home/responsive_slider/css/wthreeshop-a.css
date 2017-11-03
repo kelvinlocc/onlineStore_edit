@@ -1,0 +1,78 @@
+@media screen and (max-width: 800px) {
+    .agileshoppinggrids-bottom-grid .wthreeshop-a a {
+        padding: 10px 45px;
+    }
+    .wthreeshop-a a {
+        padding: 10px 40px;
+    }
+}
+@media screen and (max-width: 667px) {
+    .wthreeshop-a a {
+        padding: 10px 30px;
+    }
+    .agileshoppinggrids-bottom-grid .wthreeshop-a a {
+        padding: 10px 35px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .wthreeshop-a a {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .wthreeshop-a a {
+        padding: 10px 16px;
+    }
+    .wthreeshop-a {
+        margin-top: 21px;
+    }
+    .wthreeshop-a a {
+        padding: 8px 16px;
+    }
+}
+@media screen and (max-width: 384px) {
+    .agileshoppinggrids-bottom-grid .wthreeshop-a a {
+        padding: 10px 30px;
+    }
+    .wthreeshop-a {
+        margin-top: 5px;
+        padding: 0;
+    }
+    .wthreeshop-a a {
+        padding: 8px 16px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .agileshoppinggrids-bottom-grid .wthreeshop-a a {
+        padding: 10px 17px;
+    }
+}
+
+.wthreeshop-a {
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.wthreeshop-a a {
+    padding: 10px 50px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+.wthreeshop-a a:hover {
+    border-width: 3px;
+}
+.agileshoppinggrids-bottom-grid1 .wthreeshop-a {
+    text-align: right;
+}
+.agileshoppinggrids-bottom-grid2 .wthreeshop-a {
+    text-align: left;
+}
+.agileshoppinggrids-bottom-grid .wthreeshop-a a {
+    color: #000;
+    border-color: #000;
+    padding: 10px 75px;
+}
+.agilelocationsw3ls-grid1 .wthreeshop-a a {
+    border-color: #000;
+}

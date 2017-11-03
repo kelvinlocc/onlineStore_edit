@@ -1,0 +1,165 @@
+@media screen and (max-width: 1280px) {
+    .aitscommercial h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .aitsclearance-sales-text h2 {
+        font-size: 43px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .aitsclearance-sales-text h2 {
+        font-size: 42px;
+    }
+    .aitscommercial h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .contact-info-grid-2 h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .aitsclearance-sales-text h2 {
+        font-size: 40px;
+    }
+    .w3aitsfaq h1, .w3aitscontactagile h1, .w3aitscodes h1.w3lsmainheading, h1.agileits-icons-title, h2.agileits-icons-title {
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .aitscommercial h2 {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .aitsclearance-sales-text h2 {
+        font-size: 38px;
+    }
+    .aitscommercial h2 {
+        margin-bottom: 11px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .aitsclearance-sales-text h2 {
+        font-size: 32px;
+    }
+    .aitscommercial h2 {
+        font-size: 22px;
+    }
+    .w3aitsfaq h1, .w3aitscontactagile h1, .w3aitscodes h1.w3lsmainheading, h1.agileits-icons-title, h2.agileits-icons-title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .contact-info-grid-2 h2 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 736px) {
+    .aitsclearance-sales-text h2 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 667px) {
+    .aitsclearance-sales-text h2 {
+        font-size: 24px;
+    }
+    .w3aitsfaq h1, .w3aitscontactagile h1, .w3aitscodes h1.w3lsmainheading, h1.agileits-icons-title, h2.agileits-icons-title {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .aitscommercial h2 {
+        font-size: 19px;
+    }
+    .w3lsnewsletter-grid-1 p, .w3lsnewsletter-grid-1 h2 {
+        font-size: 22px;
+    }
+    .w3aitsfaq h1, .w3aitscontactagile h1, .w3aitscodes h1.w3lsmainheading, h1.agileits-icons-title, h2.agileits-icons-title {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .aitsclearance-sales-text h2 {
+        font-size: 20px;
+    }
+    .w3lsnewsletter-grid-1 p, .w3lsnewsletter-grid-1 h2 {
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .aitscommercial h2 {
+        font-size: 17px;
+    }
+    .contact-info-grid-2 h2 {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 384px) {
+    .w3aitsfaq h1, .w3aitscontactagile h1, .w3aitscodes h1.w3lsmainheading, h1.agileits-icons-title, h2.agileits-icons-title {
+        font-size: 18px;
+        margin-bottom: 20px
+    }
+}
+@media screen and (max-width: 375px) {
+    .aitscommercial h2 {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .aitsclearance-sales-text h2 {
+        font-size: 18px;
+    }
+    .aitsclearance-sales-text h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .w3aitsfaq h1, .w3aitscontactagile h1, .w3aitscodes h1.w3lsmainheading, h1.agileits-icons-title, h2.agileits-icons-title {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .contact-info-grid-2 h2 {
+        font-size: 20px;
+    }
+    .contact-info-grid-2 h2 {
+        font-size: 19px;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.aitsclearance-sales-text h2 {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 2px #32323b;
+    margin-bottom: 20px;
+}
+.about-us-text h1, .aitscommercial h2 {
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.w3lsnewsletter-grid-1 p, .w3lsnewsletter-grid-1 h2 {
+    font-size: 25px;
+    color: #FFF;
+}
+h1.agileits-icons-title, h2.agileits-icons-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.w3aitscodes .but_list h2, .w3aitscodes .but_list h4,.but_list h6 {
+    margin: 20px 0;
+}
+.contact-info-grid-2 h2 {
+    text-align: left;
+    font-size: 35px;
+    color: #000;
+    margin-bottom: 30px;
+}

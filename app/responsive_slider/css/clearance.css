@@ -1,0 +1,60 @@
+/*-- Clearance-Sale --*/
+
+.back h6 sup {
+	font-size: .5em;
+	top: -.8em;
+}
+
+/*h1, h2, h3, h4, h5, h6 {*/
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*text-align: center;*/
+	/*font-family: 'Montserrat', sans-serif;*/
+/*}*/
+
+
+.aitsclearance-sales {
+	background-image: url("../images_clearance/clearance.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.aitsclearance-sales-text {
+	width: 50%;
+	padding: 200px 0;
+	background-color: rgba(0, 0, 0, 0.35);
+}
+
+.aitsclearance-sales-text h2 {
+	font-size: 5px;
+	color: #fff;
+	text-shadow: 2px 2px #32323b;
+	margin-bottom: 20px;
+}
+
+.aitsclearance-sales-text h4 {
+	color: #FFF;
+	font-size: 30px;
+	text-shadow: 2px 2px #32323b;
+	margin-bottom: 20px;
+}
+
+.aitsclearance-sales-text h5 {
+	font-size: 75px;
+	color: #FFF;
+	text-shadow: 3px 3px #c41228;
+}
+
+.aitsclearance-sales-text h5 small {
+	font-size: 30px;
+	color: #EEE;
+	text-shadow: 2px 2px #001c44;
+}
+
+/*-- //Clearance-Sale --*/

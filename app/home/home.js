@@ -3,7 +3,7 @@
 angular.module('myApp.home', ['ngRoute'])
 
 // Declared route
-    .config(['$routeProvider', function($routeProvider) {
+    .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/home', {
             templateUrl: 'home/home.html',
             controller: 'HomeCtrl'
@@ -14,7 +14,21 @@ angular.module('myApp.home', ['ngRoute'])
     .controller('HomeCtrl', ['$scope', '$firebase', '$firebaseArray', '$firebaseAuth', '$rootScope', function ($scope, $firebas, $firebaseArray, $firebaseAuth, $rootScope) {
         var rootRef = firebase.database().ref();
         var auth = $firebaseAuth();
-        // var ref = new Firebase('https://online-store-uat.firebaseio.com');
+
+        setTimeout(function(){
+            jQuery('#fluid_dg_wrap_1').fluid_dg({thumbnails: true, height: "25%"});
+        }, 0);
+
+
+        // $('#fluid_dg_wrap_1').fluid_dg({thumbnails: true, height: "25%"});
+        // angular.element("#fluid_dg_wrap_1").fluid_dg({thumbnails: true, height: "25%"});
+        // document.getElementById("merchantSelect");
+        // document.getElementById("myTest").innerHTML="what";
+        // // document.getElementById("fluid_dg_wrap_1").fluid_dg({thumbnails: true, height: "25%"});
+        // // angular.element("fluid_dg_wrap_1").fluid_dg({thumbnails: true, height: "25%"});
+        // // angular.element("fluid_dg_wrap_1").innerHTML="test";
+        // document.getElementById("fluid_dg_wrap_1").innerHTML="123";
+
         $scope.user = {};
         // $scope.test = "test";
         $scope.user.email = "test123@gmail.com";
